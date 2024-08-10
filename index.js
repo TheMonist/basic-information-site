@@ -8,7 +8,7 @@ const page404 = fs.readFileSync("404.html", "utf-8", (err, data) => {
     return data;
 })
 
-const server = http.createServer(function(req, res){
+const server = http.createServer((req, res) => {
     const q = url.parse(req.url, true);
     const filename = req.url === "/" ? "./index.html":`./${q.pathname}.html`;
 
