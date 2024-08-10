@@ -1,0 +1,14 @@
+{
+  "name": "basic-information-site",
+  "version": "1.0.0",
+  "description": "basic informational site",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "The Monist",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
